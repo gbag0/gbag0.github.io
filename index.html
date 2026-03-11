@@ -1,24 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gabijus Bagocius</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Nombre</title>
+  <meta name="description" content="Mini biografía personal" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="wrap">
+  <div class="page-bg"></div>
+  <div class="noise"></div>
+
+  <main class="shell">
     <section class="card">
-      <h1>Gabijus Bagocius</h1>
-      <p>Hola! :)</p>
-      <a class="button" href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
+      <span class="badge">Disponible para proyectos</span>
+
+      <h1>
+        Hola, soy <span class="gradient-text">Tu Nombre</span>
+      </h1>
+
+      <p class="bio">
+        Desarrollo proyectos, experimento con interfaces y construyo cosas
+        relacionadas con código, diseño y herramientas modernas.
+      </p>
+
+      <div class="buttons">
+        <a
+          class="btn btn-primary"
+          href="https://github.com/tuusuario"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver GitHub
+        </a>
+
+        <a
+          class="btn btn-secondary"
+          href="mailto:tuemail@ejemplo.com"
+        >
+          Contacto
+        </a>
+      </div>
+
+      <div class="links">
+        <a
+          class="link-card"
+          href="https://github.com/tuusuario"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>
+            <div class="link-title">GitHub</div>
+            <div class="link-subtitle">@tuusuario</div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a
+          class="link-card"
+          href="https://x.com/tuusuario"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>
+            <div class="link-title">X / Twitter</div>
+            <div class="link-subtitle">@tuusuario</div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a
+          class="link-card"
+          href="https://www.linkedin.com/in/tuusuario/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>
+            <div class="link-title">LinkedIn</div>
+            <div class="link-subtitle">Perfil profesional</div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
     </section>
   </main>
 </body>
