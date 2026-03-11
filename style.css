@@ -125,32 +125,7 @@ body::after {
   overflow: hidden;
 }
 
-/* Línea superior técnica */
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.08) 18%,
-    rgba(255, 255, 255, 0.14) 50%,
-    rgba(255, 255, 255, 0.08) 82%,
-    transparent 100%
-  );
-  pointer-events: none;
-}
 
-/* Contorno interior muy sutil */
-.card::after {
-  content: "";
-  position: absolute;
-  inset: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.025);
-  border-radius: 10px;
-  pointer-events: none;
-}
 
 h1 {
   margin: 0;
